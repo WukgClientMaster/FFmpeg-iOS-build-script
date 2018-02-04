@@ -1,16 +1,16 @@
 #!/bin/sh
 
 # directories
-FF_VERSION="3.4"
+FF_VERSION="2.6.6"
 if [[ $FFMPEG_VERSION != "" ]]; then
   FF_VERSION=$FFMPEG_VERSION
 fi
 SOURCE="ffmpeg-$FF_VERSION"
-FAT="FFmpeg-iOS"
+FAT="FFmpeg-$FF_VERSION-Fat"
 
-SCRATCH="scratch"
+SCRATCH="FFmpeg-$FF_VERSION-Scratch"
 # must be an absolute path
-THIN=`pwd`/"thin"
+THIN=`pwd`/"FFmpeg-$FF_VERSION-Thin"
 
 # absolute path to x264 library
 #X264=`pwd`/fat-x264
