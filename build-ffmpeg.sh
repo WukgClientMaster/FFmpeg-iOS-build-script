@@ -1,12 +1,12 @@
 #!/bin/sh
 
 # directories
-FF_VERSION="2.6.6"
+FF_VERSION="2.8.2"
 if [[ $FFMPEG_VERSION != "" ]]; then
   FF_VERSION=$FFMPEG_VERSION
 fi
 SOURCE="ffmpeg-$FF_VERSION"
-FAT="FFmpeg-$FF_VERSION-Fat"
+FAT="FFmpeg-$FF_VERSION"
 
 SCRATCH="FFmpeg-$FF_VERSION-Scratch"
 # must be an absolute path
