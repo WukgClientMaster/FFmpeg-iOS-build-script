@@ -13,6 +13,6 @@
 
 已经编译了：
 
-- FFmpeg-2.6.6
-- FFmpeg-2.8.2
+- [FFmpeg-2.6.6](https://github.com/debugly/FFmpeg-iOS-build-script/raw/source/FFmpeg-iOS/FFmpeg-2.6.6.zip)
+- [FFmpeg-2.8.2](https://github.com/debugly/FFmpeg-iOS-build-script/raw/source/FFmpeg-iOS/FFmpeg-2.8.2.zip)
 
